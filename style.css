@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(135deg, #FF5733, #FFC300, #2980B9); /* Gradiente suave de vermelho a laranja e azul */
+    color: #E0E0E0; /* Cor clara para garantir boa legibilidade */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;   /* Centraliza horizontalmente */
+    align-items: center;       /* Centraliza verticalmente */
+    height: 100vh; /* Ajusta a altura para preencher a tela */
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    max-width: 90%; /* Ajuste para se adaptar melhor ao conteúdo */
+    background-color: rgba(44, 44, 44, 0.8); /* Um tom escuro com transparência para o fundo do conteúdo */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas para suavizar o visual */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra suave ao container principal */
+}
+
+button {
+    background-color: #FF5722; /* Laranja vibrante para chamar atenção */
+    color: #FFFFFF; /* Cor clara para texto do botão */
+    border: 2px solid #FFAB40; /* Borda laranja clara para contraste */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Bai Jamjuree", sans-serif;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    outline: none; /* Remove o contorno padrão ao focar no botão */
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #FF7043; /* Laranja mais escuro para o hover */
+    border-color: #FFCC80; /* Borda mais clara para hover */
+    transform: scale(1.05); /* Leve aumento de tamanho no hover */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+img {
+    max-width: 100%; /* Ajuste para garantir que as imagens não ultrapassem os limites do contêiner */
+    border-radius: 10px; /* Bordas arredondadas para imagens */
+    margin-bottom: 15px; /* Espaçamento inferior entre a imagem e o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave para as imagens */
+}
+
+/* Cores de destaque para parágrafos e títulos */
+h1, h2, h3 {
+    color: #FFEB3B; /* Amarelo vibrante para chamar atenção */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #E0E0E0; /* Mantém a legibilidade do texto */
+}
